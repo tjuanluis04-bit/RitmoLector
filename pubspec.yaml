@@ -12,5 +12,15 @@ dependencies:
   shared_preferences: ^2.2.3
   wakelock_plus: ^1.2.8
 
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
 flutter:
   uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon.png
+  adaptive_icon_background: "#172033"
+  adaptive_icon_foreground: assets/icon_foreground.png
